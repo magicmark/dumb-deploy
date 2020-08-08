@@ -146,7 +146,7 @@ NODE_ENV=production yarn start
 - **Side projects** that need a server runtime exposed to the world wide web
 - (For simple static websites, one should probably just use vercel or netlify etc)
 
-### Why not use <insert SaaS cloud provider here>?
+### Why not use \<insert SaaS cloud provider here>?
 
 - I'm cheap, and I want to deploy my side projects to the web for the least amount of money
 - But I also don't want to compromise on availability (e.g. sleeping Heroku dynos)
