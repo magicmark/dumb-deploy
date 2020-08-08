@@ -88,7 +88,7 @@ async function deploy({
 
   log(`Pruning old deploy directories of ${appName}...`);
   await remoteExeca([
-    `find ${PROD_ROOT} -maxdepth 1 -type d -name "${appName}*" | grep -v "${deployDir}" | xargs -I{} sudo rm -rf "{}"`,
+    `find ${prodRoot} -maxdepth 1 -type d -name "${appName}*" | grep -v "${deployDir}" | xargs -I{} sudo rm -rf "{}"`,
   ]);
 
   log(`Successfully deployed ${appName} to ${deployPath}!`);
