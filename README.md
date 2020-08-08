@@ -64,7 +64,7 @@ main();
 
 Here's another example for a NodeJS app:
 
-<details><summary><b>Docker App</b></summary>
+<details><summary><b>NodeJS App</b></summary>
 <p>
 
 `deploy/deploy.js`:
