@@ -32,7 +32,7 @@ function getRemoteExeca(user, host, sshId) {
       "StrictHostKeyChecking=no",
       "-o",
       "UserKnownHostsFile=/dev/null",
-      `${USER}@${HOST}`,
+      `${user}@${host}`,
       ...args,
     ];
     console.log(chalk.blue`{bold Executing...} $ ssh ${fullArgs.join(" ")}`);
