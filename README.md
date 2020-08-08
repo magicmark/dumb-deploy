@@ -1,4 +1,6 @@
-# dumb-deploy: Simple application deployment for side projects
+# dumb-deploy
+
+**Simple application deployment for side projects**
 
 This is a stupid script I use to deploy applications to a remote web server for my side projects with minimal hassle/setup - on a budget!
 
